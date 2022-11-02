@@ -1,0 +1,41 @@
+p {
+    font-family: Roboto;
+}
+
+.video-title {
+    font-weight: bold;
+    font-size: 28px;
+    width: 290px;
+    margin-bottom: 1px;
+}
+
+.video-numbers {
+    color: rgb(86, 85, 85);
+    margin-bottom: 30px;
+}
+
+.video-author {
+    margin-bottom: 20px;
+}
+
+.video-description {
+    width: 290px;
+    line-height: 22px
+}
+
+.offer {
+    background-color: orange;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.offer-link {
+    text-decoration: underline;
+}
+
+.offer-link:hover {
+    cursor: pointer;
+}
