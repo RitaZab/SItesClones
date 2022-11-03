@@ -1,0 +1,47 @@
+p {
+    font-family: Roboto;
+}
+
+.video-title {
+    font-weight: bold;
+    font-size: 28px;
+    width: 300px;
+    margin-bottom: 1px;
+}
+
+.video-numbers {
+    color: rgb(86, 85, 85);
+    margin-bottom: 30px;
+}
+
+.video-author {
+    margin-bottom: 20px;
+}
+
+.video-description {
+    width: 300px;
+    line-height: 22px
+}
+
+.offer {
+    background-color: orange;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.offer-link {
+    text-decoration: underline;
+}
+
+.offer-link:hover {
+    cursor: pointer;
+}
+.tmbl-img{width:300px;
+    object-fit: cover;}
+
+.video-infos{display: inline-block;
+margin:20px;
+vertical-align: top;}
