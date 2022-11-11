@@ -1,25 +1,28 @@
 p {
-    font-family: Roboto;
+    font-family: Roboto, Arial;
+    margin:0px;
 }
 
 .video-title {
-    font-weight: bold;
-    font-size: 28px;
-    width: 300px;
-    margin-bottom: 1px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top:10px;
 }
 
 .video-numbers {
     color: rgb(86, 85, 85);
     margin-bottom: 30px;
+    font-size: 15px;
 }
 
 .video-author {
-    margin-bottom: 20px;
+   margin-top:20px;
+    font-size: 15px;
 }
 
 .video-description {
-    width: 300px;
+   
     line-height: 22px
 }
 
@@ -45,3 +48,13 @@ p {
 .video-infos{display: inline-block;
 margin:20px;
 vertical-align: top;}
+
+.avatar,.video-text{display: inline-block;
+    vertical-align: top;}
+.avatar{width:50px;
+    margin-top:10px;}
+.video-text{width:200px}
+
+.avatar-img{width:100%;
+    vertical-align: top;
+border-radius: 50px;}
